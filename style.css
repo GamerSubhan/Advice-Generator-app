@@ -1,0 +1,75 @@
+.attribution { font-size: 11px; text-align: center; margin-top: 10%;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body
+{
+    background-color: hsl(218, 23%, 16%);
+}
+
+#background
+{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: hsl(217, 19%, 24%);
+    margin-top: 10%;
+    width: 525px;
+    height: 365px;
+    position: relative;
+    border-radius: 8px;
+    text-align: center;
+}
+
+@font-face {
+    font-family: variableFont;
+    src: url("Manrope/static/Manrope-Light.ttf");
+}
+
+#background p 
+{
+    color: hsl(150, 100%, 66%);
+    font-family: variableFont;
+    font-weight: 550;
+    font-size: 0.9em;
+    letter-spacing: 2px;
+    margin-top: 5%;
+}
+
+#diceButton
+{
+    background-color: hsl(150, 100%, 66%);
+    box-shadow: 20px;
+    border-radius: 360px;
+    width: 70px;
+    height: 70px;
+    margin-top: 63%;
+    position: absolute;
+}
+
+#diceButton:active
+{
+    box-shadow: 0 -6px 20px hsla(150, 100%, 66%, 0.7), 0 15px 30px hsla(150, 100%, 66%, 0.5);
+}
+
+#diceIcon
+{
+    margin-top: 32%;
+}
+
+
+#divider
+{
+    position: absolute;
+    margin-top: 50%;
+}
+
+h3
+{
+    font-family: variableFont;
+    color: hsl(193, 38%, 86%);
+    position: absolute;
+    font-size: 2em;
+    transform: scale(0.8);
+    margin-top: 15%;
+}
